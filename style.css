@@ -1,0 +1,33 @@
+body {
+  background: #778beb;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Courier Prime', monospace;
+}
+
+input {
+  background: #546de5;
+  color: #382e17;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center
+}
+
+button {
+  background: #546de5;
+  color: #f5cd79;
+  width: 200px;
+  height: 50px;
+  font-size: 30px
+}
+
+h1 {
+  font-size: 100px;
+}
+
+  
+
