@@ -29,5 +29,13 @@ h1 {
   font-size: 100px;
 }
 
+h1.uppercase {
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+h1.UpCopy {
+  display: none;
+}
   
 
