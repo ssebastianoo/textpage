@@ -6,22 +6,17 @@
 	<script src="script.js"></script>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property = "og:title" content = "Giant Text">
   <meta property = "og:description" content = "Transform a text to a giant text">
   <meta property = "og:title" content = "Giant Text">
   <meta property = "og:description" content = "Transform a text in a giant text">
-  <meta property = "og:image" content = "https://Text-Page.ssebastianoo.repl.co/img.png">
 </head>
 
 <body>
-
-  <div = "body">
-    
-    <input placeholder="write some text" id = "small" type = "text">
+  <div id = "container">
+    <h1 id = "big"></h1>
+    <input name = "text" placeholder="write some text" id = "small" type = "text">
     <button onclick = "giant()" id = "button">Make Giant</button>
-    <h1 id = "big" onclick = "appear()"></h1>
-    <button onclick = "copy()" style="display:none" id = "copy">Copy</button>
-
   </div>
-
 </body>

@@ -6,6 +6,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   font-family: 'Courier Prime', monospace;
+  overflow: hidden;
 }
 
 input {
